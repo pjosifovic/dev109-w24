@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>artifact02 chessboard</title>
+</head>
+<body>
+  <h1>chessboard</h1>
+  
+  
+  <p class="footer"><a href="../index.html">Back to Home</a></p>
+</body>
+</html>
