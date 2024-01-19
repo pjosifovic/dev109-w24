@@ -23,11 +23,5 @@ i {
 }
 
 a {
-  color: inherit;
-}
-
-p.footer {
-  font-family: inherit;
-  color: blue;
-  font-size: 100%;
+	color: inherit;
 }
