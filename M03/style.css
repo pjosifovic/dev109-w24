@@ -21,3 +21,7 @@ p {
 i {
         color: darkgreen;
 }
+
+a {
+  color: inherit;
+}
