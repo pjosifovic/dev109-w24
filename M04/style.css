@@ -1,44 +1,104 @@
 * {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;
+  font-family: Arial, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  
 }
 
 body {
-				width: 90%;
-				margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/12/20/44/texture-1902618_1280.png");
+  background-repeat:no-repeat;
 }
 
-#content {
-				overflow: auto;
+header {
+  display: block;
+  height: 100px;
+  margin: 0 20px; 
 }
 
-#nav, #feature, #footer {
-				margin: 1%;
+header h1 {
+  font-family: 'JMNexusGrotesqueRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: orange;
 }
 
-.column1, .column2, .column3 {
-				width: 31.3%;
-				float: left;
-				margin: 1%;
+nav {
+  height: 40px;
+  background-color: purple;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.column3 {
-				margin-right: 0%;
+nav ul li {
+  margin: 0;
+  padding: 0;
+  float:left;
+}
+nav ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #FFF;
+  text-align: center;
 }
 
-li {
-				display: inline;
-				padding: 0.5em;
+.feature {
+  height: 150px;
+  background-color: CornflowerBlue;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftoppng.com%2Fuploads%2Fthumbnail%2Foctopus-png-11553977719lnzu4ugjlt.png&f=1&nofb=1&ipt=f9928e48efd2321c9d1d18a76cbef6035ac2152b96ed05f777e9f182b0eb54b5&ipo=images");
+  background-size:contain;
+  background-position: right;
+  background-repeat:no-repeat;
 }
 
-#nav, #footer {
-				background-color: #efefef;
-				padding: 0.5em 0;
+main {
+  margin: 0 20px;
+  overflow: auto;
 }
 
-#feature, .article {
-				height: 10em;
-				margin-bottom: 1em;
-				background-color: #efefef;
+main article {
+  margin-top: 20px;
+  //display: inline-block;
+  float: left;
+  width:32%;
+  height: 200px;
+  text-align: center;
 }
+
+.col-1 {
+  background-color: yellow;
+}
+
+.col-2 {
+  background-color: green;
+  margin-left: 2%;
+}
+
+.col-3 {
+  background-color: #8FBC8F;
+  margin-left: 2%;
+}
+
+footer {
+  background-color: #2F4F4F;
+  margin: 10px 20px;  
+  height: 50px;
+}
+
+footer p {
+  display: inline-block;
+  vertical-align: middle;
+  color: #FFFAF0;
+}
+
+
+
