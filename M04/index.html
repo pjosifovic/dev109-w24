@@ -1,39 +1,17 @@
-<html><head>
-		<title>Liquid Layout</title>
-		<style type="text/css">
-			* {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;}
-			body {
-				width: 90%;
-				margin: 0 auto;}
-			#content {
-				overflow: auto;}
-			#nav, #feature, #footer {
-				margin: 1%;}
-			.column1, .column2, .column3 {
-				width: 31.3%;
-				float: left;
-				margin: 1%;}
-			.column3 {
-				margin-right: 0%;}
-			li {
-				display: inline;
-				padding: 0.5em;}
-			#nav, #footer {
-				background-color: #efefef;
-				padding: 0.5em 0;}
-			#feature, .article {
-				height: 10em;
-				margin-bottom: 1em;
-				background-color: #efefef;}
-		</style>
-	<style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style></head>
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width">
+		<title>M04 - Liquid Layout</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/j-m-nexus-grotesque" type="text/css"/>
+		<style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style>	
+	</head>
 	<body>
-		<div id="header">
+		<header>
 			<h1>Logo</h1>
-			<div id="nav">
+			<nav>
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Products</a></li>
@@ -41,25 +19,26 @@
 					<li><a href="">About</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
-			</div>
-		</div>
-		<div id="content">
-			<div id="feature">
+			<nav>
+		<header>
+		<main>
+			<section>
 				<p>Feature</p>
-			</div>
-			<div class="article column1">
+			<section>
+			<article>
 				<p>Column One</p>
-			</div>
-			<div class="article column2">
+			<article>
+			<article>
 				<p>Column Two</p>
-			</div>
-			<div class="article column3">
+			<article>
+			<article>
 				<p>Column Three</p>
-			</div>
-		</div>
-		<div id="footer">
-			<p>© Copyright 2011</p>
-		</div>
+			<article>
+		<main>
+		<footer>
+			<p>© Copyright 2024</p>
+		<footer>
 	
 
-</body></html>
+</body>
+</html>
