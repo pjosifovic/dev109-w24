@@ -2,16 +2,20 @@
   font-family: Arial, Verdana, sans-serif;
   color: black;
   text-align: center;
-  
 }
 
 body {
-  width: 100%;
   margin: 0 auto;
-  height: 150px;
-  background-image: url("https://cdn.pixabay.com/photo/2016/12/12/20/44/texture-1902618_1280.png");
-  background-repeat:no-repeat;
+  background: url('https://cdn.pixabay.com/photo/2016/12/12/20/44/texture-1902618_1280.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+/* =================== */
+/*        HEADER       */
+/* =================== */
 
 header {
   display: block;
@@ -51,6 +55,16 @@ nav ul li a {
   text-align: center;
 }
 
+
+/* =================== */
+/*        MAIN         */
+/* =================== */
+
+main {
+  margin: 0 20px;
+  overflow: auto;
+}
+
 .feature {
   height: 150px;
   background-color: CornflowerBlue;
@@ -58,11 +72,6 @@ nav ul li a {
   background-size:contain;
   background-position: right;
   background-repeat:no-repeat;
-}
-
-main {
-  margin: 0 20px;
-  overflow: auto;
 }
 
 main article {
@@ -87,6 +96,10 @@ main article {
   background-color: #8FBC8F;
   margin-left: 2%;
 }
+
+/* =================== */
+/*        FOOTER       */
+/* =================== */
 
 footer {
   background-color: #2F4F4F;
