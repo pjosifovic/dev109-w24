@@ -7,9 +7,6 @@
 body {
   margin: 0 auto;
   background: url('https://cdn.pixabay.com/photo/2016/12/12/20/44/texture-1902618_1280.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -76,7 +73,6 @@ main {
 
 main article {
   margin-top: 20px;
-  //display: inline-block;
   float: left;
   width:32%;
   height: 200px;
