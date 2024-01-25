@@ -9,6 +9,8 @@ h1 {
 	color:blue;
 	font-family:'DancingScriptRegular';
 	font-size:400%;
+	padding: 12px;
+	line-height: 2em;
 }
 
 p {
@@ -16,6 +18,8 @@ p {
 	font-weight: normal;
 	font-style: normal;
 	font-size:200%;
+	padding: 12px;
+	line-height: 2em;	
 }
 
 i {
@@ -25,3 +29,8 @@ i {
 a {
 	color: inherit;
 }
+
+a, a:hover, a:visited {
+	color: #665544;
+}
+		
