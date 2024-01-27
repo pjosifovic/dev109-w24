@@ -97,6 +97,53 @@ nav li .active{
   text-decoration: underline;
 }
 
+/*  ****************************  */
+/*  ARTIFACT - CARDS              */
+/*  ****************************  */
+
+.artifacts-img {
+    margin: 1em auto;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    border: 2px solid #ffe25f;
+  }
+  .artifacts-img a {
+    color: inherit;
+  }
+  .artifacts-img .description {
+    padding: 2%;
+    background: #ffee9f;
+  }
+  .artifacts-img .description h4 {
+    font-family: Verdana, sans-serif;
+  }
+  .artifacts-img .description h4 {
+    line-height: 1;
+    margin: 0;
+    font-size: 1.7em;
+  }
+.artifacts-img figcaption {
+    font-size: .5em;
+    text-align: center;
+}
+  .artifacts-img .description .read-more {
+    text-align: right;
+  }
+  .artifacts-img .description .read-more a {
+    color: #12c;
+    text-decoration: underline;
+    display: inline-block;
+    position: relative;
+  }
+  .artifacts-img p {
+    position: relative;
+    margin: 1em 0 0;
+  }
+
 aside {
   font-size: 14px;
   float: right;
