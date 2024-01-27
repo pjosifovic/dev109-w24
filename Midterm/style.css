@@ -2,6 +2,10 @@ aside, article, section, header, footer, nav {
 	display: block;
 }
 
+html {
+    height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,10 +13,8 @@ body {
   color: #3f3f3f;
   font-size: 16px;
   line-height: 24px;
-  background-image: url("https://cdn.pixabay.com/photo/2021/04/04/23/14/background-6151744_1280.png");
+  background: url("https://cdn.pixabay.com/photo/2021/04/04/23/14/background-6151744_1280.png") no-repeat center center fixed;
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -91,6 +93,10 @@ nav li a {
   text-decoration: none;
 }
 
+nav li .active{
+  text-decoration: underline;
+}
+
 aside {
   font-size: 14px;
   float: right;
@@ -133,6 +139,13 @@ main h2 {
   font-size: 22px;
   line-height: 33px;
 }
+
+main .signature {
+    font-family: Brush Script MT, serif;
+    color: #AAE4E5;
+    font-size: 2em;
+  }
+
 
 footer {
   -webkit-border-bottom-right-radius: 10px;
