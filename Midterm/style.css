@@ -185,16 +185,20 @@ main {
     width: 100%!important;
     margin:0!important;
 }
-main > section.clients {
+main > div.clients {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     justify-content: space-evenly;
 }
-main > section.clients > article p {
+main > div.clients > article p {
     text-align: center;
 }
-main > section.clients > article p a {
+
+main > div.clients > article h4 {
+    text-align: center;
+}
+main > div.clients > article p a {
     color: #12c;
     text-decoration: none;
     border-bottom: 1px dotted #12c;
@@ -204,17 +208,16 @@ img.thumbnail {
     height: 120px;
 }
 h2.clients {
-    margin-left: 20px;;
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
 }
 section.video {
     text-align: center;
     margin-top: 3em;
 }
-main h2 {
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
-}
+
 main .signature {
     font-family: Brush Script MT, serif;
     color: #AAE4E5;
