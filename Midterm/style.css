@@ -181,6 +181,43 @@ main {
   width: 580px;
   margin: 10px 0 40px 20px;
 }
+
+.clients-main {
+    width: 100%!important;
+    margin:0!important;
+}
+
+main > section.clients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-evenly;
+}
+
+main > section.clients > article p {
+    text-align: center;
+}
+
+main > section.clients > article p a {
+    color: #12c;
+    text-decoration: none;
+    border-bottom: 1px dotted #12c;
+}
+
+img.thumbnail {
+    width: 120px;
+    height: 120px;
+}
+
+h2.clients {
+    margin-left: 20px;;
+}
+
+section.video {
+    text-align: center;
+    margin-top: 3em;
+}
+
 main h2 {
   font-weight: normal;
   font-size: 22px;
@@ -192,6 +229,15 @@ main .signature {
     color: #AAE4E5;
     font-size: 2em;
   }
+
+main article .coursework-name {
+    margin-bottom: 0;
+}
+
+main article .professor-name {
+    margin-top: 0;
+    font-style: italic;
+}
 
 
 footer {
