@@ -64,7 +64,7 @@ header h2 {
   border: 1px solid #ffe25f;
   display: inline;
 }
-header hgroup {
+header .hgroup {
     padding: 20px 0 40px 0;
 }
 nav {
