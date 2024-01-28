@@ -1,11 +1,9 @@
 aside, article, section, header, footer, nav {
 	display: block;
 }
-
 html {
     height: 100%;
 }
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -17,14 +15,12 @@ body {
   height: 100%;
   background-size: cover;
 }
-
 a {
   color: #000088;
 }
 a:hover {
   color: #880000;
 }
-
 #wrap {
   margin: 40px auto;
   width: 940px;
@@ -36,7 +32,6 @@ a:hover {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-
 header {
   -webkit-border-top-left-radius: 10px;
   -webkit-border-top-right-radius: 10px;
@@ -69,11 +64,9 @@ header h2 {
   border: 1px solid #ffe25f;
   display: inline;
 }
-
 header hgroup {
     padding: 20px 0 40px 0;
 }
-
 nav {
   background: #f1f1f1;
   padding: 10px 20px;
@@ -92,7 +85,6 @@ nav li {
 nav li a {
   text-decoration: none;
 }
-
 nav li .active{
   text-decoration: underline;
 }
@@ -110,39 +102,43 @@ nav li .active{
     display: flex;
     align-items: stretch;
     border: 2px solid #ffe25f;
-  }
-  .artifacts-img a {
-    color: inherit;
-  }
-  .artifacts-img .description {
-    padding: 2%;
-    background: #ffee9f;
-  }
-  .artifacts-img .description h4 {
-    font-family: Verdana, sans-serif;
-  }
-  .artifacts-img .description h4 {
-    line-height: 1;
-    margin: 0;
-    font-size: 1.7em;
-  }
-.artifacts-img figcaption {
-    font-size: .5em;
-    text-align: center;
 }
-  .artifacts-img .description .read-more {
-    text-align: right;
-  }
-  .artifacts-img .description .read-more a {
-    color: #12c;
-    text-decoration: underline;
-    display: inline-block;
-    position: relative;
-  }
-  .artifacts-img p {
-    position: relative;
-    margin: 1em 0 0;
-  }
+.artifacts-img a {
+color: inherit;
+}
+.artifacts-img .description {
+padding: 2%;
+background: #ffee9f;
+}
+.artifacts-img .description h4 {
+font-family: Verdana, sans-serif;
+}
+.artifacts-img .description h4 {
+line-height: 1;
+margin: 0;
+font-size: 1.7em;
+}
+.artifacts-img figcaption {
+font-size: .5em;
+text-align: center;
+}
+.artifacts-img .description .read-more {
+text-align: right;
+}
+.artifacts-img .description .read-more a {
+color: #12c;
+text-decoration: underline;
+display: inline-block;
+position: relative;
+}
+.artifacts-img p {
+position: relative;
+margin: 1em 0 0;
+}
+
+/*  ****************************  */
+/*  ASIDE                         */
+/*  ****************************  */
 
 aside {
   font-size: 14px;
@@ -176,69 +172,65 @@ aside ul li a:hover {
   border-bottom: 1px dotted #c12;
 }
 
+/*  ****************************  */
+/*  MAIN - CREATIVE               */
+/*  ****************************  */
+
 main {
   float: left;
   width: 580px;
   margin: 10px 0 40px 20px;
 }
-
 .clients-main {
     width: 100%!important;
     margin:0!important;
 }
-
 main > section.clients {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     justify-content: space-evenly;
 }
-
 main > section.clients > article p {
     text-align: center;
 }
-
 main > section.clients > article p a {
     color: #12c;
     text-decoration: none;
     border-bottom: 1px dotted #12c;
 }
-
 img.thumbnail {
     width: 120px;
     height: 120px;
 }
-
 h2.clients {
     margin-left: 20px;;
 }
-
 section.video {
     text-align: center;
     margin-top: 3em;
 }
-
 main h2 {
   font-weight: normal;
   font-size: 22px;
   line-height: 33px;
 }
-
 main .signature {
     font-family: Brush Script MT, serif;
     color: #AAE4E5;
     font-size: 2em;
   }
-
 main article .coursework-name {
     margin-bottom: 0;
 }
-
 main article .professor-name {
     margin-top: 0;
     font-style: italic;
 }
 
+/*  ****************************  */
+/*  FOOTER                        */
+/*  ****************************  */
 
 footer {
   -webkit-border-bottom-right-radius: 10px;
