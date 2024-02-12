@@ -1,0 +1,16 @@
+aside,
+article,
+section,
+header,
+footer,
+nav {
+  display: block;
+}
+
+section.rhombus {
+  display: flex;
+}
+
+.left {
+  text-align: right;
+}
