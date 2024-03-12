@@ -22,7 +22,7 @@
 ## About The Project
 
 <p align="center">
-  [![Product Name Screen Shot][product-screenshot]]
+  <img src="[product-screenshot]" />
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
