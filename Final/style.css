@@ -147,32 +147,30 @@ nav li .active {
 
 .artifacts-img .description .read-more a {
   border: 2px solid transparent;
+}
 
-  &::after {
-    width: 0%;
-    height: 2px;
-    display: block;
-    background-color: #353a43;
-    content: " ";
-    position: absolute;
-    top: 24px;
-    left: 50%;
-    transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1),
-      width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
+.artifacts-img .description .read-more a:after {
+  width: 0%;
+  height: 2px;
+  display: block;
+  background-color: #353a43;
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transition: left 0.2s cubic-bezier(0.215, 0.61, 0.355, 1),
+    width 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
 
-  &:hover {
-    &::after {
-      width: 100%;
-      height: 2px;
-      display: block;
-      background-color: #353a43;
-      content: " ";
-      position: absolute;
-      top: 24px;
-      left: 0;
-    }
-  }
+.artifacts-img .description .read-more a:hover:after {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #353a43;
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 0;
 }
 
 .artifacts-img p {
