@@ -32,17 +32,9 @@ a:hover {
   width: 940px;
   background: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 header {
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background: #f9f9f9;
@@ -57,8 +49,6 @@ header h1 {
   letter-spacing: -1px;
 }
 header h2 {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   margin: 0 0 0 20px;
   padding: 5px 12px;
@@ -197,8 +187,6 @@ aside h3 {
   margin: 10px 0;
 }
 aside ul {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
   list-style-type: none;
   margin: 0;
@@ -227,7 +215,7 @@ aside ul li a:hover {
 
 svg path,
 svg rect {
-  fill: #5f5f5f;
+  all: #5f5f5f;
 }
 
 /*  ****************************  */
@@ -372,8 +360,6 @@ fieldset {
 #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
 #contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   border: 1px solid #aaa;
 }
@@ -415,10 +401,6 @@ fieldset {
 /*  ****************************  */
 
 footer {
-  -webkit-border-bottom-right-radius: 10px;
-  -webkit-border-bottom-left-radius: 10px;
-  -moz-border-radius-bottomright: 10px;
-  -moz-border-radius-bottomleft: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 
